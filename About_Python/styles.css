@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background-colors : top blue blue: #245076  bottom darkest blue: #245076
+bottom lightest blue: #3274AC
+
+font colors : yellow #D5B300   baby blue #84B7E3    baby blue white bg #83B1DA
+'search' #D1D1D1    remainder white
+
+addition colors : bars mid-page #73A7D5   menu bar outer #3575AD   
+menu bar inner #477EAD   seach bar bg #444444   go button #245076 
+
+font : FreeSans Medium */
+
+/* no changes to body! just to hold all info */
+body{
+    font-family: Tahoma, sans-serif;
+}
+/* font styling */
+.white_text{
+    font-size: 14px;
+    color: white;
+}
+.yellow_text{
+    font-size: 14px;
+    color: #D5B300;
+}
+.black_text{
+    font-size: 14px;
+    color: black;
+}
+.blue_text{
+    font-size: 14px;
+    color: #83B1DA;  
+}
+.italics{
+    font-style: italic;
+}
+.underlined{
+    text-decoration: underline;
+}
+.together{
+    display: inline;
+}
+
+
+#wrapper{
+    width: 970px;
+    background-color: white;
+}
+#top_info{
+    min-height: 300px;
+    background-color: #245076;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+.icon{
+    margin: 15px;
+    width: 315px;
+    display: inline-block;
+}
+.search{
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+}
+.end{ 
+    padding-right: 50px;
+}
+.search_box{
+    padding: 10px 40px;
+    margin: 5px;
+    background-color: #444444;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+}
+.search input[type=text]{
+    font-size: 12px;
+    margin: auto;
+    padding: 10px 15px;
+    display: inline;
+    text-align: center;
+
+    box-shadow: 1px 1px black;
+}
+button{
+    height: 33px;
+    width: 38px;
+    background-color: #245076;
+    border-width: 2px; 
+    border-style: solid;
+    border-image: linear-gradient(to bottom-right, #C0C0C0,#444444); /* tryed to gradient... failed to gradient */
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    box-shadow: 1px 1px black;
+}
+.table{
+    display: table;
+    margin: 0 auto;
+    background-color: #3575AD;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+}
+.menu_bar{
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+.menu_bar li{
+    display: inline;
+    margin-left: 40px;
+}
+.side_menu{
+    font-size: 18px;
+    width: 300px;
+    padding: 15px;
+    text-decoration: underline;
+    list-style-position: inside;
+    display: inline-block;
+    text-align: center;
+}
+.side_menu li{
+    margin: 10px;
+}
+.to_side{
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.to_side .yellow_text{
+    font-size: 20px;
+    margin: 10px;
+}
+.to_side .zen{
+    font-size: 18px;
+}
+
+/* Getting Started */
+#getting_started div{ 
+    display: inline-block;
+}
+.blue_bar{
+    background-color: #73A7D5;
+    height: 3px;
+    width: 360px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 90px;
+}
+.side_by_side{
+    width: 255px;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 120px;
+}
+.left{
+    margin-right: 15px;
+}
+.right{
+    margin-left: 15px;
+}
+.title{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.info{
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+}
+.special{
+    font-size: 10px;
+    color: #83B1DA;
+}
+.sub_bullets{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 35px;
+}
+.sub_bullets .blue_text{
+    font-size: 13px;
+    padding: 2px;
+    list-style-type: square;
+}
+.sub_bullets li{
+    color: black;
+    list-style: square;
+    text-align: center;
+}
+
+
+
+/* Bottom Section */
+
+#bottom_links{
+    min-height: 100px;
+    background-image: linear-gradient(#245076, #3274AC);
+    padding: auto;
+    border-top: 1px solid black;
+}
+.bottom_table{
+    display: table;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.bottom_bar{
+    padding: auto;
+    color: #83B1DA;
+    font-size: 16px; 
+}
+.bottom_bar li{
+    display: inline;
+    margin-left: 40px;
+}
+.copyright{
+    font-size: 8px;
+    margin-top: 15px;
+    text-align: center;
+}
+

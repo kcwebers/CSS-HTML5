@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background-colors : 
+top bar dark blue: #29659E  
+top bar light blue: #5184AB
+bottom lightest blue: #3274AC
+
+font colors : 
+red #DB3232   
+'net'/headings blue #29659E    
+baby blue #4FC0DF    
+remainder white / black
+
+addition colors : 
+watch button blue #6097C2
+watch button light blue #2A679F
+more button orange #EF7E00
+more button light orange #EBAB53 
+learn button blue #50C2DF
+learn button light blue #78D0E0
+bottom border blue #3A85E0 
+
+font : Open Sans */
+
+/* no changes to body! just to hold all info */
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: initial;
+}
+
+/* Font Styling */
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
+.dark_blue{
+    color: #29659E;
+}
+.baby_blue{
+    color:#4FC0DF;
+}
+.red{
+    color: red;
+}
+.bold{
+    font-weight: bold;
+}
+.italics{
+    font-style: italic;
+}
+/*---------------*/
+#wrapper{
+    width: 870px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 2px 50px 0px 50px;
+    background-color:  white;
+    position: relative;
+}
+/*---------------*/
+#top_bar h1{
+    padding: 15px 25px 0px 70px;
+    display: inline-block;
+    vertical-align: bottom;
+    background-size: 70px;
+}
+#top_bar img{
+    height: 67px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+#top_bar h2{
+    padding: 10px 20px;
+    background-image: linear-gradient(#29659E, #5184AB, #29659E);
+    color: white;
+}
+
+.gradient{
+    background-image: linear-gradient(to bottom, #E3E3E3, white 20%);
+}
+/*---------------*/
+#left_side{
+    width: 235px;
+    display: inline-block;
+}
+.upper_side{
+    margin: 25px 75px 20px 5px;
+    padding-bottom: 25px; 
+    border-bottom: 1px solid grey;
+}
+.smaller{
+    font-size: 10px;
+    padding: 7px 0px 15px 0px;
+}
+button{
+    color: white;
+    width: 145px;
+    font-size: 12.5px;
+    padding: 5px 8px;
+    box-shadow: 2px 2px grey;
+    border: none;
+    border-radius: 4px;
+}
+.watch{
+    background-image: linear-gradient(to bottom, #6097C2, #2A679F);
+    margin-bottom: 5px;
+}
+.resources{
+    background-image: linear-gradient(to bottom, #EBAB53, #EF7E00);
+}
+.lower_side{
+    margin: 25px 70px 20px 3px;
+    min-height: 195px;
+    padding-bottom: 25px;
+    background:url(file:///Users/kaysee/CodingDojo/Internet/images/ad_background.png) left top no-repeat;
+    box-shadow: 2px 2px grey;
+    background-size: 165px;
+    text-align: center;
+}
+.advertisement{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.ninja{
+    height: 85px;
+    margin: 10px;
+}
+.learn{
+    background-image: linear-gradient(to bottom, #78D0E0, #50C2DF);
+    box-shadow: 1px 1px black;
+    width: 125px;
+}
+/*---------------*/
+#right_side{
+    width: 624px;
+    padding-right: 6px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.top_of_right{
+    min-height: 65px;
+    border-bottom: 1px solid grey;
+}
+.house{
+    width: 100px;
+}
+.house img{
+    padding-top: 5px;
+    height: 17px;
+    vertical-align: bottom;
+    display: inline-block;
+
+}
+.top_of_right p{
+    padding-top: 0px;
+    display: inline-block; 
+}
+.contact{
+    min-width: 155px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+    .contact img{
+        margin: 13px 5px;
+        padding-top: 0;
+        height: 37px;
+        vertical-align: top;
+    }
+    .phone{
+        font-size: 19px;
+        margin-top: px;
+        font-weight: bold;
+    }
+    .smallest{
+        margin-right: 5px;
+        margin-left: 10px;
+        font-size: 8px;
+    }
+
+/*------------------*/
+.mid_right{
+    text-align: center;
+}
+.mid_right h3{
+    font-size: 16px;
+    margin: 5px; 
+}
+.mid_right img{
+    height: 100px;
+    margin: 10px;
+    vertical-align: middle;
+}
+.sub_sections{
+    text-align: left;
+}
+.line_one{
+    margin-left: 5px;
+}
+li{
+    margin: 5px 0px 5px 35px;
+}
+
+/*-------------------*/
+.bottom_right{
+    min-height: 115px;
+    border-right: 4px solid #3A85E0;
+    border-left: 4px solid #3A85E0;
+    border-top: 4px solid #3A85E0;
+    box-shadow: 5px 1px 5px -5px grey;
+    position: relative;
+}
+.bottom_right img{
+    height: 90px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bottom_right h3{
+    margin-top: 5px;
+    display: inline-block;
+}
+.some_info{
+    display: inline-block;
+    position: absolute;
+    left: 121px;
+    margin-top: 28px;
+    padding-right: 30px;
+}
+.last_line{
+    display: inline-block;
+    position: absolute;
+    left: 121px;
+    margin-top: 85px;
+    margin-bottom: 15px;
+    padding-right: 65px;   
+}
+
+

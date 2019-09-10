@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background-colors : 
+back dark blue: #082134  
+back light blue: #DAEDFF
+box med blue: #2B67A8
+
+font colors : 
+'consulting' #4197E6   
+'home' blue #29659E 
+'learn' blue #5C8CAE
+'home' blue  #B4D8F5   
+remainder white / black
+
+addition colors : 
+top button blue #49ADEC
+bottom button light blue #3F93DE
+
+font :   */
+
+/* no changes to body! just to hold all info */
+
+body{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+/* Font Styling */
+.black{
+    color: #0E2739;
+}
+.white{
+    color: white;
+}
+.blue{
+    color: #4197E5;
+}
+.muted_blue{
+    color: #5C8CAE;
+}
+.baby_blue{
+    color:#A8D1F2;
+}
+.italic{
+    font-style: italic;
+}
+
+/*---------------*/
+#wrapper{
+    width: 945px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 5px 10px 0px 15px;
+    background-color: #082134;
+}
+#wrapper h1{
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px;
+    display: inline-block;
+}
+#wrapper ul{
+    font-family: Helvetica, Arial, sans-serif;
+    list-style: none;
+    display: inline-block;
+    padding-left: 80px;
+    font-size: 14px;
+}
+#wrapper ul li{
+    display: inline;
+    padding-left: 60px;
+}
+/*---------------*/
+#white_zone{
+    background-color: white;
+}
+.main_image{
+    margin: 20px;
+    width: 905px;
+    min-height: 390px;
+}
+/*---------------*/
+#mid_info{
+    display: inline-block;
+}
+.services{
+    position: relative;
+    width: 286px;
+    min-height: 230px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #2B67A8;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.services h2{
+    font-size: 22px;
+    font-weight: 100;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.services img{
+    height: 35px;
+    margin: 15px 0px 0px 10px;
+    position: relative;
+    background-color: white; 
+    background-size: 50%;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+.services .last{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.services p{
+    margin: 10px 35px 20px 20px;
+    font-size: 11px;
+}
+button{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 35px;
+    background-image: linear-gradient(to bottom, #49ADEC 50%, #3F93DE 50%);
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+/*---------------*/
+#bottom_info{
+    display: inline-block;
+}
+.titles h2{
+    width: 300px;
+    font-size: 23px;
+    font-weight: 100;
+    display: inline-block;
+    margin: 0 0 20px 20px;
+}
+.titles .testimonial{
+    width: 284px;
+    margin-left: 316px;
+}
+.bottom_boxes{
+    font-family: Helvetica, Arial, sans-serif;
+    width: 286px;
+    min-height: 175px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.bottom_boxes img{
+    width: 288px;
+    margin-left: -1px;
+}
+.bottom_boxes p{
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.bottom_boxes h3{
+    font-weight: 100;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px
+}
+.text_bubble{
+    padding: 25px 30px 27px 20px;
+    margin-bottom: -10px;
+    position: relative;
+    background-color: #DAEDFF;
+    height: 70px;
+}
+.text_bubble::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 15%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #DAEDFF;
+    border-bottom: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.text_bubble p{
+    font-size: 14px;
+}
+.tag{
+    margin-top: 28px;
+
+}
+/*---------------*/
+#final_links{
+    background-color: #DAEDFF;
+    display: inline-block;
+    width: 905px;
+    margin-left: 20px;
+    text-align: center;
+    border-top: 1px solid navy;
+}
+#final_links ul{
+    padding: 20px;
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+}
+#final_links ul li{
+    padding-left: 0px;
+    margin: 0 13px;
+    display: inline;
+}
+

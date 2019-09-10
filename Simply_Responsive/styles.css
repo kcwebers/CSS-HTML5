@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+/*---------------*/
+#wrapper{
+    margin: 0 auto;
+    padding: 5px 50px 0px 50px;
+}
+/*---------------*/
+#wrapper div{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgoldenrod;
+}
+#top{
+    background-color: grey;
+}
+#middle{
+    background-color: darkgrey
+}
+#bottom{
+    min-height: 35px;
+    background-color: lightgoldenrodyellow;
+}
+@media only screen and (max-width){
+    .sm-4{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 481px){
+    .med-2{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .lg-1{
+        width: 25%;
+    }
+}
+
+/* Why does this webpage 'reset' at over 1024px? */
+
+
